@@ -1,0 +1,20 @@
+* [33m06d7c5c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m chore: Update address
+* [33meda9422[m fix: Resolve text cutoff issues in about, projects, and events sections; implement social media icons in contact
+* [33m623dabf[m chore: Update team
+* [33m03115e2[m chore: Update location
+* [33m639e55c[m chore: Update navigation
+* [33m4a4adb2[m chore: Update lorem names and locations
+* [33m2ae6a21[m chore: Restructure project configs and refine metadata entries
+* [33mf417ae6[m Update readme
+* [33mcb5fd9d[m Update readme
+* [33mba0b190[m chore: Update readme. Ignore redundant border utility from tooltip content
+* [33m60b1ee6[m feat: Installing core runtime and dev dependencies
+* [33m05b968f[m fix: Light Dark toggle fix
+* [33m70d7c84[m feat: Import files from local
+* [33m0cf138e[m chore: Delete unused home route and cleanup app imports.
+* [33m3ef64f5[m feat: Create placeholders
+* [33md6908b0[m Vite Check
+* [33m051c77a[m Install react router dom
+* [33me9239ea[m Manually configure tailwind
+* [33m71442b1[m Clean vite boilerplate
+* [33mce7825e[m Initial commit
