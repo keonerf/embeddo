@@ -1,13 +1,19 @@
-import { defineConfig } from "vite"
-import react from "@vitejs/plugin-react"
-import path from "path"
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react-swc";
+import path from "path";
 
+// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  server: {
+    host: "::",
+    port: 8080,
+  },
+  plugins: [
+    react(),
+  ],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "src"),
+      "@": path.resolve(__dirname, "./src"),
     },
   },
-})
-// This configuration sets up Vite for a React project, allowing for the use of absolute imports with the "@" alias pointing to the "src" directory. It also includes the React plugin for Vite to handle JSX and other React-specific features.
+});
