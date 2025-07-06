@@ -34,9 +34,9 @@ export const Contact = () => {
                   <div>
                     <h4 className="text-white font-medium">Address</h4>
                     <p className="text-gray-300">
-                      Faculty of Technology, Delhi University
+                      Faculty of Technology
                       <br />
-                      Netaji Subhas Institute of Technology
+                      North Campus, University of Delhi
                       <br />
                       New Delhi, India
                     </p>
