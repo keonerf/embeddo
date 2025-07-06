@@ -38,8 +38,6 @@ npm install
 npm run dev
 ```
 
-Now open [http://localhost:5173](http://localhost:5173) in your browser.
-
 ## 💡 Requirements
 
 Make sure you have the following installed:
