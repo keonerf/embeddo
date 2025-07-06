@@ -1,7 +1,5 @@
 # React + TypeScript + Vite
 
----
-
 # Tech Stack
 
 | Tool / Library                                                                         | Purpose                             |
@@ -18,8 +16,6 @@
 | [lucide-react](https://lucide.dev/)                                                    | Icon library                        |
 | [shadcn/ui](https://ui.shadcn.dev/)                                                    | Pre-styled UI components            |
 | [Recharts](https://recharts.org/)                                                      | Charting and data viz               |
-
----
 
 ## Getting Started
 
@@ -44,16 +40,12 @@ npm run dev
 
 Now open [http://localhost:5173](http://localhost:5173) in your browser.
 
----
-
 ## 💡 Requirements
 
 Make sure you have the following installed:
 
 - [Node.js](https://nodejs.org/) — v18 or higher recommended
 - [Git](https://git-scm.com/)
-
----
 
 ## 🛠 Dev Commands
 
