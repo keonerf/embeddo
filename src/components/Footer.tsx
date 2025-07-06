@@ -10,7 +10,7 @@ export const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <Cpu className="h-8 w-8 text-cyan-400" />
-              <span className="font-bold text-xl text-white">FoTDU Robotics</span>
+              <span className="font-bold text-xl text-white">Faculty of Technology</span>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
               The Robotics and Embedded Systems Society at Faculty of Technology, Delhi University. 

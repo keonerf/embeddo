@@ -7,55 +7,55 @@ import { Linkedin, Github, Mail } from "lucide-react";
 export const Team = () => {
   const team = [
     {
-      name: "Priya Sharma",
+      name: "Soham Nalwade",
       role: "President",
       department: "Electronics & Communication",
-      year: "Final Year",
+      year: "Second Year",
       avatar: "/placeholder.svg",
       specialties: ["Robotics", "AI", "Leadership"],
       social: {
         linkedin: "#",
         github: "#",
-        email: "priya@ftdu.ac.in"
+        email: "sohamnalwade@fotdu.ac.in"
       }
     },
     {
-      name: "Arjun Patel",
+      name: "Avi Prakash Jaiswal",
       role: "Technical Head",
-      department: "Computer Science",
+      department: "Electronics & Communication",
       year: "Third Year",
       avatar: "/placeholder.svg",
       specialties: ["Embedded Systems", "IoT", "Programming"],
       social: {
         linkedin: "#",
         github: "#",
-        email: "arjun@ftdu.ac.in"
+        email: "aviprakashjaiswal@fotdu.ac.in"
       }
     },
     {
-      name: "Sneha Gupta",
+      name: "Devansh Parashar",
       role: "Project Coordinator",
-      department: "Electrical Engineering",
+      department: "Electronics & Communication",
       year: "Second Year",
       avatar: "/placeholder.svg",
       specialties: ["Circuit Design", "Automation", "Research"],
       social: {
         linkedin: "#",
         github: "#",
-        email: "sneha@ftdu.ac.in"
+        email: "sneha@fotdu.ac.in"
       }
     },
     {
-      name: "Rahul Kumar",
+      name: "Shounak Roy Chowdhury",
       role: "Workshop Lead",
-      department: "Mechanical Engineering",
+      department: "Electronics & Communication",
       year: "Final Year",
       avatar: "/placeholder.svg",
       specialties: ["Mechanical Design", "3D Printing", "Training"],
       social: {
         linkedin: "#",
         github: "#",
-        email: "rahul@ftdu.ac.in"
+        email: "shounakroychowdhury@fotdu.ac.in"
       }
     }
   ];
