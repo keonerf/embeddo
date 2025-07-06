@@ -21,7 +21,7 @@ export const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
             <Cpu className="h-8 w-8 text-cyan-400" />
-            <span className="font-bold text-xl">FoTDU Robotics</span>
+            <span className="font-bold text-xl">Faculty of Technology</span>
           </div>
           
           {/* Desktop Navigation */}
