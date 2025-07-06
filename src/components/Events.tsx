@@ -9,7 +9,7 @@ export const Events = () => {
       title: "Robotics Workshop 2024",
       date: "March 15, 2024",
       time: "10:00 AM - 4:00 PM",
-      location: "Faculty of Technology, Delhi University, North Campus, New Delhi",
+      location: "Electronics Lab",
       type: "Workshop",
       description: "Hands-on workshop covering Arduino programming, sensor integration, and basic robotics concepts."
     },
