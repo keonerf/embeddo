@@ -6,8 +6,8 @@ export const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* === Spline animation === */}
-      <div className="absolute top-0 left-0 w-full h-[500px] z-0">
-        <Spline scene="https://prod.spline.design/dR7lvo3g0GgCPKtw/scene.splinecode" />
+      <div className="w-full h-[500px] sm:h-[600px] relative z-10">
+        <Spline scene="/assets/embeddo.splinecode" />
       </div>
 
       {/* === Gradient background layer === */}
@@ -24,7 +24,7 @@ export const Hero = () => {
 
       {/* === Main content === */}
       <div className="relative z-10 text-center max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-[500px]">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-blue-400 to-teal-400 bg-clip-text text-transparent">
+        <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-blue-400 to-teal-400 bg-clip-text text-transparent">
           Robotics & Embedded Systems Society
         </h1>
 
