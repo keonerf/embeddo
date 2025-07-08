@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-# Tech Stack
+## Tech Stack
 
 | Tool / Library                                                                         | Purpose                             |
 | -------------------------------------------------------------------------------------- | ----------------------------------- |
@@ -22,7 +22,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git clone https://github.com/keonerf/embeddo/.git
 cd YOUR_REPO_NAME
 ```
 
@@ -38,7 +38,7 @@ npm install
 npm run dev
 ```
 
-## 💡 Requirements
+## Requirements
 
 Make sure you have the following installed:
 
