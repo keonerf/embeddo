@@ -22,8 +22,8 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/keonerf/embeddo/.git
-cd YOUR_REPO_NAME
+git clone https://github.com/keonerf/embeddo/
+cd embeddo
 ```
 
 ### 2. Install Dependencies
