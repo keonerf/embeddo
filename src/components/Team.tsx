@@ -7,7 +7,7 @@ export const Team = () => {
   const team = [
     {
       name: "Soham Nalwade",
-      role: "President",
+      role: "Coordinator",
       department: "Electronics & Communication",
       year: "Second Year",
       avatar: "/placeholder.svg",
@@ -20,7 +20,7 @@ export const Team = () => {
     },
     {
       name: "Devansh Parashar",
-      role: "Project Coordinator",
+      role: "Coordinator",
       department: "Electronics & Communication",
       year: "Second Year",
       avatar: "/placeholder.svg",
@@ -33,7 +33,7 @@ export const Team = () => {
     },
     {
       name: "Avi Prakash Jaiswal",
-      role: "Technical Head",
+      role: "Tech Team",
       department: "Electronics & Communication",
       year: "Second Year",
       avatar: "/placeholder.svg",
@@ -46,7 +46,7 @@ export const Team = () => {
     },
     {
       name: "Shounak Roy Chowdhury",
-      role: "Workshop Lead",
+      role: "Workshop Mentor",
       department: "Electronics & Communication",
       year: "Second Year",
       avatar: "/placeholder.svg",
@@ -59,9 +59,9 @@ export const Team = () => {
     },
     {
       name: "Shreya Jaisal",
-      role: "Website Management",
+      role: "Tech Team",
       department: "Electronics & Communication",
-      year: "Second Year",
+      year: "Third Year",
       avatar: "/placeholder.svg",
       specialties: ["Embedded Systems", "Content Update", "Website Management"],
       social: {
@@ -72,7 +72,7 @@ export const Team = () => {
     },
     {
       name: "Aishwarya",
-      role: "Technical Team",
+      role: "Tech Team",
       department: "Electronics & Communication",
       year: "Second Year",
       avatar: "/placeholder.svg",
@@ -84,8 +84,8 @@ export const Team = () => {
       },
     },
     {
-      name: "Gauri Dahiya",
-      role: "Technical Team",
+      name: "Gouri Dahiya",
+      role: "Tech Team",
       department: "Electronics & Communication",
       year: "Second Year",
       avatar: "/placeholder.svg",
@@ -98,7 +98,7 @@ export const Team = () => {
     },
     {
       name: "Shreyas Singh",
-      role: "Workshop Organiser",
+      role: "Workshop Mentor",
       department: "Electronics & Communication",
       year: "Third Year",
       avatar: "/placeholder.svg",
@@ -113,6 +113,19 @@ export const Team = () => {
         email: "shreyassingh@fotdu.ac.in",
       },
     },
+    {
+      name: "Vaibhav Taneja",
+      role: "Workshop Mentor",
+      department: "Electrical",
+      year: "Third Year",
+      avatar: "/placeholder.svg",
+      specialties: ["Robotics", "Workshop Mentor"],
+      social: {
+        linkedin: "#",
+        github: "#",
+        email: "vaibhavtaneja@fotdu.ac.in"
+      },
+    }
   ];
 
   return (
