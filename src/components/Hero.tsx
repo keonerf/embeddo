@@ -8,24 +8,36 @@ export const Hero = () => {
       id="home"
       className="relative min-h-screen flex flex-col items-center justify-start bg-slate-900 text-white overflow-hidden pt-8"
     >
-      {/* ✅ Spline scene without watermark */}
-      <div className="w-full flex justify-center items-center h-[500px] sm:h-[600px]">
-        <div className="w-full max-w-6xl">
-          <Spline scene="/assets/scene.splinecode" />
+      {/* Spline (Desktop) or Static Image (Mobile) */}
+      <div className="relative w-full overflow-hidden">
+        {/* Desktop Spline */}
+        <div className="hidden sm:block sm:h-[500px] md:h-[600px]">
+          <div className="spline-wrapper w-full h-full scale-[1] origin-center">
+            <Spline scene="/assets/scene.splinecode" />
+          </div>
+        </div>
+
+        {/* Mobile Static Image (2000x1200 = 5:3 aspect ratio) */}
+        <div className="block sm:hidden w-full aspect-square">
+          <img
+            src="/assets/spline-fallback.png"
+            alt="Robotics Society Illustration"
+            className="w-full h-full object-contain"
+          />
         </div>
       </div>
 
       {/* Text Content */}
-      <div className="relative z-10 text-center max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mt-[-2rem]">
-        <h1 className="text-3xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-400 via-blue-400 to-teal-400 bg-clip-text text-transparent whitespace-nowrap">
+      <div className="relative z-10 text-center max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mt-[-1rem] sm:mt-[-2rem]">
+        <h1 className="text-3xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-400 via-blue-400 to-teal-400 bg-clip-text text-transparent break-words text-center">
           Robotics & Embedded Systems Society
         </h1>
 
-        <h2 className="text-xl md:text-2xl font-semibold text-gray-300 mb-2">
+        <h2 className="text-base sm:text-xl md:text-2xl font-semibold text-gray-300 mb-2">
           Faculty of Technology, Delhi University
         </h2>
 
-        <p className="text-lg text-gray-400 mb-6 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-sm sm:text-base text-gray-400 mb-6 max-w-3xl mx-auto leading-relaxed">
           Advanced Architecture | Intelligent Design
         </p>
 
