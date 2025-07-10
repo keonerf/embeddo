@@ -119,7 +119,7 @@ export const Team = () => {
       department: "Electrical",
       year: "Third Year",
       avatar: "/placeholder.svg",
-      specialties: ["robotics and workshop mentor"],
+      specialties: ["Robotics", "Workshop Mentor"],
       social: {
         linkedin: "#",
         github: "#",
