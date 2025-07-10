@@ -59,9 +59,9 @@ export const Footer = () => {
 
         <div className="border-t border-slate-700 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            Automated architecture | Intelligent design
+            © 2024 Robotics & Embedded Systems Society, Faculty of Technology, Delhi University. All rights reserved.
           </p>
-        </div>
+        </div>  
       </div>
     </footer>
   );
