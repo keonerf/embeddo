@@ -30,7 +30,7 @@ export const Hero = () => {
       {/* Text Content */}
       <div className="relative z-10 text-center max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mt-[-1rem] sm:mt-[-2rem]">
         <h1 className="text-3xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-400 via-blue-400 to-teal-400 bg-clip-text text-transparent break-words text-center">
-          Robotics & Embedded Systems Society
+          Robotics & Innovation Society
         </h1>
 
         <h2 className="text-base sm:text-xl md:text-2xl font-semibold text-gray-300 mb-2">

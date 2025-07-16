@@ -23,12 +23,12 @@ export const Team = () => {
       role: "Coordinator",
       department: "Electronics & Communication",
       year: "Second Year",
-      avatar: "/placeholder.svg",
+      avatar: "/teams/devansh.jpg",
       specialties: ["Circuit Design", "Automation", "Research"],
       social: {
         linkedin: "#",
         github: "#",
-        email: "sneha@fotdu.ac.in",
+        email: "devansh@fotdu.ac.in",
       },
     },
     {
@@ -36,7 +36,7 @@ export const Team = () => {
       role: "Tech Team",
       department: "Electronics & Communication",
       year: "Second Year",
-      avatar: "/placeholder.svg",
+      avatar: "/teams/avi.jpg",
       specialties: ["Web Dev", "Deployment", "Programming"],
       social: {
         linkedin: "#",
@@ -49,7 +49,7 @@ export const Team = () => {
       role: "Workshop Mentor",
       department: "Electronics & Communication",
       year: "Second Year",
-      avatar: "/placeholder.svg",
+      avatar: "/teams/shounak.jpg",
       specialties: ["Mechanical Design", "3D Design", "Training"],
       social: {
         linkedin: "#",
@@ -84,11 +84,11 @@ export const Team = () => {
       },
     },
     {
-      name: "Gouri Dahiya",
+      name: "Gauri Dahiya",
       role: "Tech Team",
       department: "Electronics & Communication",
       year: "Second Year",
-      avatar: "/placeholder.svg",
+      avatar: "/teams/gauri.jpg",
       specialties: ["Programming", "Development", "Robotics"],
       social: {
         linkedin: "#",
@@ -118,7 +118,7 @@ export const Team = () => {
       role: "Workshop Mentor",
       department: "Electrical",
       year: "Third Year",
-      avatar: "/placeholder.svg",
+      avatar: "/teams/vaibhav.jpg",
       specialties: ["Robotics", "Workshop Mentor"],
       social: {
         linkedin: "#",
@@ -141,67 +141,73 @@ export const Team = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {team.map((member, index) => (
-            <Card
-              key={index}
-              className="bg-slate-800 border-slate-700 hover:border-cyan-400 transition-all duration-300 group"
-            >
-              <CardContent className="p-6 text-center">
-                <Avatar className="w-24 h-24 mx-auto mb-4 border-2 border-cyan-400">
-                  <AvatarImage src={member.avatar} alt={member.name} />
-                  <AvatarFallback className="bg-slate-700 text-cyan-400 text-lg font-semibold">
-                    {member.name
-                      .split(" ")
-                      .map((n) => n[0])
-                      .join("")}
-                  </AvatarFallback>
-                </Avatar>
+        <div className="flex justify-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" justify-items-center>
+            {team.map((member, index) => (
+              <Card
+                key={index}
+                className="bg-slate-800 border-slate-700 hover:border-cyan-400 transition-all duration-300 group"
+              >
+                <CardContent className="p-6 text-center">
+                  <Avatar className="w-24 h-24 mx-auto mb-4 border-2 border-cyan-400 rounded-full overflow-hidden group-hover:shadow-cyan-400/40 group-hover:shadow-lg transition-all duration-300">
+                    <AvatarImage
+                      src={member.avatar}
+                      alt={member.name}
+                      className="w-full h-full object-cover"
+                    />
+                    <AvatarFallback className="bg-slate-700 text-cyan-400 text-lg font-semibold">
+                      {member.name
+                        .split(" ")
+                        .map((n) => n[0])
+                        .join("")}
+                    </AvatarFallback>
+                  </Avatar>
 
-                <h3 className="text-xl font-semibold text-white mb-1">
-                  {member.name}
-                </h3>
-                <p className="text-cyan-400 font-medium mb-2">{member.role}</p>
-                <p className="text-gray-400 text-sm mb-1">
-                  {member.department}
-                </p>
-                <p className="text-gray-400 text-sm mb-4">{member.year}</p>
+                  <h3 className="text-xl font-semibold text-white mb-1">
+                    {member.name}
+                  </h3>
+                  <p className="text-cyan-400 font-medium mb-2">{member.role}</p>
+                  <p className="text-gray-400 text-sm mb-1">
+                    {member.department}
+                  </p>
+                  <p className="text-gray-400 text-sm mb-4">{member.year}</p>
 
-                <div className="flex flex-wrap gap-1 justify-center mb-4">
-                  {member.specialties.map((specialty, specIndex) => (
-                    <Badge
-                      key={specIndex}
-                      variant="outline"
-                      className="border-slate-600 text-gray-300 text-xs"
+                  <div className="flex flex-wrap gap-1 justify-center mb-4">
+                    {member.specialties.map((specialty, specIndex) => (
+                      <Badge
+                        key={specIndex}
+                        variant="outline"
+                        className="border-slate-600 text-gray-300 text-xs"
+                      >
+                        {specialty}
+                      </Badge>
+                    ))}
+                  </div>
+
+                  <div className="flex justify-center space-x-3">
+                    <a
+                      href={member.social.linkedin}
+                      className="text-gray-400 hover:text-cyan-400 transition-colors"
                     >
-                      {specialty}
-                    </Badge>
-                  ))}
-                </div>
-
-                <div className="flex justify-center space-x-3">
-                  <a
-                    href={member.social.linkedin}
-                    className="text-gray-400 hover:text-cyan-400 transition-colors"
-                  >
-                    <Linkedin className="h-5 w-5" />
-                  </a>
-                  <a
-                    href={member.social.github}
-                    className="text-gray-400 hover:text-cyan-400 transition-colors"
-                  >
-                    <Github className="h-5 w-5" />
-                  </a>
-                  <a
-                    href={`mailto:${member.social.email}`}
-                    className="text-gray-400 hover:text-cyan-400 transition-colors"
-                  >
-                    <Mail className="h-5 w-5" />
-                  </a>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
+                      <Linkedin className="h-5 w-5" />
+                    </a>
+                    <a
+                      href={member.social.github}
+                      className="text-gray-400 hover:text-cyan-400 transition-colors"
+                    >
+                      <Github className="h-5 w-5" />
+                    </a>
+                    <a
+                      href={`mailto:${member.social.email}`}
+                      className="text-gray-400 hover:text-cyan-400 transition-colors"
+                    >
+                      <Mail className="h-5 w-5" />
+                    </a>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </div>
       </div>
     </section>
