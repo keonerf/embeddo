@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Menu, X, Cpu } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -20,10 +19,14 @@ export const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
-            <Cpu className="h-8 w-8 text-cyan-400" />
-            <span className="font-bold text-xl">Faculty of Technology</span>
+            <img
+              src="/logo.png"
+              alt="Faculty of Technology Logo"
+              className="h-10 w-10 object-contain transition-transform duration-300 hover:scale-105"
+            />
+            <span className="font-bold text-xl text-white">Faculty of Technology</span>
           </div>
-          
+
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="flex items-center space-x-8">
