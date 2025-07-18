@@ -6,11 +6,11 @@ import { Linkedin, Github, Mail } from "lucide-react";
 export const Team = () => {
   const team = [
     {
-      name: "Soham Nalwade",
+      name: "Soham Nalawade",
       role: "Coordinator",
       department: "Electronics & Communication",
       year: "Second Year",
-      avatar: "/placeholder.svg",
+      avatar: "/teams/soham.jpg",
       specialties: ["Robotics", "AI", "Leadership"],
       social: {
         linkedin: "#",
@@ -60,9 +60,9 @@ export const Team = () => {
     {
       name: "Shreya Jaisal",
       role: "Tech Team",
-      department: "Electronics & Communication",
+      department: "Computer Science",
       year: "Third Year",
-      avatar: "/placeholder.svg",
+      avatar: "/teams/shreya.jpg",
       specialties: ["Embedded Systems", "Content Update", "Website Management"],
       social: {
         linkedin: "#",
@@ -73,9 +73,9 @@ export const Team = () => {
     {
       name: "Aishwarya",
       role: "Tech Team",
-      department: "Electronics & Communication",
+      department: "Computer Science",
       year: "Second Year",
-      avatar: "/placeholder.svg",
+      avatar: "/teams/aishwarya.jpg",
       specialties: ["Programming", "Data Structures", "Problem Solving"],
       social: {
         linkedin: "#",
@@ -101,7 +101,7 @@ export const Team = () => {
       role: "Workshop Mentor",
       department: "Electronics & Communication",
       year: "Third Year",
-      avatar: "/placeholder.svg",
+      avatar: "/teams/shreyas.jpg",
       specialties: [
         "Embedded Systems",
         "Workshop Planning",

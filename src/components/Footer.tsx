@@ -1,5 +1,5 @@
 
-import { Cpu, Github, Linkedin, Instagram, Mail } from "lucide-react";
+import { Github, Linkedin, Instagram, Mail } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -9,11 +9,15 @@ export const Footer = () => {
           {/* Society Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <Cpu className="h-8 w-8 text-cyan-400" />
+              <img
+                src="/logo.png"
+                alt="Faculty of Technology Logo"
+                className="h-10 w-10 object-contain transition-transform duration-300 hover:scale-105"
+              />
               <span className="font-bold text-xl text-white">Faculty of Technology</span>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
-              The Robotics and Embedded Systems Society at Faculty of Technology, Delhi University. 
+              The Robotics and Embedded Systems Society at Faculty of Technology, Delhi University.
               Building the future through innovation, collaboration, and cutting-edge technology.
             </p>
             <div className="flex space-x-4">
@@ -61,7 +65,7 @@ export const Footer = () => {
           <p className="text-gray-400">
             © 2024 Robotics & Embedded Systems Society, Faculty of Technology, Delhi University. All rights reserved.
           </p>
-        </div>  
+        </div>
       </div>
     </footer>
   );

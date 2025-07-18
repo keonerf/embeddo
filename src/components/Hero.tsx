@@ -17,7 +17,7 @@ export const Hero = () => {
           </div>
         </div>
 
-        {/* Mobile Static Image (2000x1200 = 5:3 aspect ratio) */}
+        {/* Mobile Static Image */}
         <div className="block sm:hidden w-full aspect-square">
           <img
             src="/assets/spline-fallback.png"
