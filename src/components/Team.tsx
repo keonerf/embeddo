@@ -82,9 +82,9 @@ export const Team = () => {
       avatar: "/teams/shreya.jpg",
       specialties: ["Embedded Systems", "Content Update", "Website Management"],
       social: {
-        linkedin: "#",
-        github: "#",
-        email: "shreyajaisal@fotdu.ac.in",
+        linkedin: "https://www.linkedin.com/in/shreya-jaisal/",
+        github: "https://github.com/shr3yajaisal",
+        email: "jaisal.shreya10@ce.du.ac.in",
       },
     },
     {
@@ -95,9 +95,9 @@ export const Team = () => {
       avatar: "/teams/avi.jpg",
       specialties: ["Web Dev", "Deployment", "Programming"],
       social: {
-        linkedin: "#",
-        github: "#",
-        email: "aviprakashjaiswal@fotdu.ac.in",
+        linkedin: "https://www.linkedin.com/in/avi-prakash-jaiswal-197460244/",
+        github: "https://github.com/keonerf",
+        email: "aviprakashjaiswal@ece.du.ac.in",
       },
     },
     {
@@ -108,8 +108,8 @@ export const Team = () => {
       avatar: "/teams/gauri.jpg",
       specialties: ["Programming", "Development", "Robotics"],
       social: {
-        linkedin: "#",
-        github: "#",
+        linkedin: "https://www.linkedin.com/in/gouri-dahiya-187405329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        github: "https://github.com/indiecerobo",
         email: "gauridahiya@fotdu.ac.in",
       },
     },
@@ -121,9 +121,9 @@ export const Team = () => {
       avatar: "/teams/vaibhav.jpg",
       specialties: ["Robotics", "Workshop Mentor"],
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/vaibhav-taneja-073ab6216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         github: "#",
-        email: "vaibhavtaneja@fotdu.ac.in"
+        email: "vaibhavtaneja@ee.du.ac.in"
       },
     }
   ];
